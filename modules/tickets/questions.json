@@ -1,0 +1,51 @@
+[
+    {
+        "id": "bugreport",
+        "name": "Bug Report",
+        "description": "Report a bug",
+        "questions": [
+            {
+                "id": "description",
+                "question": "Describe the bug in detail",
+                "placeholder": "I was doing X when Y happened",
+                "type": 2,
+                "required": true
+            },
+            {
+                "id": "repro",
+                "question": "How can we reproduce the bug?",
+                "placeholder": "Do X, then Y, then Z",
+                "type": 2,
+                "required": true
+            },
+            {
+                "id": "etc",
+                "question": "Anything else we should know?",
+                "placeholder": "I am on X platform, Game version Y...",
+                "type": 2,
+                "required": false
+            }
+        ]
+    },
+    {
+        "id": "support",
+        "name": "Support",
+        "description": "Get help with something",
+        "questions": [
+            {
+                "id": "reason",
+                "question": "What do you need help with?",
+                "placeholder": "I need help with X, I have a question about Y...",
+                "type": 2,
+                "required": true
+            },
+            {
+                "id": "etc",
+                "question": "Anything else we should know?",
+                "placeholder": "I am on X platform, Game version Y...",
+                "type": 2,
+                "required": false
+            }
+        ]
+    }
+]
